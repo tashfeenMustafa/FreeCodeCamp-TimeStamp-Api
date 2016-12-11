@@ -1,0 +1,29 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp's Timestamp API sourc code/solution",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tashfeenMustafa/FreeCodeCamp-TimeStamp-API.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "Timestamp",
+    "API",
+    "source",
+    "code"
+  ],
+  "author": "Tashfeen Mustafa Choudhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tashfeenMustafa/FreeCodeCamp-TimeStamp-API/issues"
+  },
+  "homepage": "https://github.com/tashfeenMustafa/FreeCodeCamp-TimeStamp-API#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
