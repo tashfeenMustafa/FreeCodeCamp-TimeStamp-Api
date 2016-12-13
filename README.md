@@ -6,8 +6,8 @@ The solution to FreeCodeCamp's Timestamp API. Please feel free to check it out. 
       
 <h3>Usage:</h3>
 
-<pre>https://freecodecamp-timestamp-api.herokuapp.com/January 10, 2015</pre>
-<pre>https://freecodecamp-timestamp-api.herokuapp.com/1420848000</pre>
+<pre>https://freecodecamp-timestamp-api-tashfeenmustafachoudhury.c9users.io/January 10, 2015</pre>
+<pre>https://freecodecamp-timestamp-api-tashfeenmustafachoudhury.c9users.io/1420848000</pre>
 
 <h4>Example Response:</h4>
 {
