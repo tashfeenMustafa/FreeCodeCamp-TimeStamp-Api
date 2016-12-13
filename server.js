@@ -1,8 +1,13 @@
 var express = require('express')
 var moment = require('moment')
+var path = require('path');
+
 
 var app = express()
 
+app.set('port', (process.env.PORT || 5000));
+
+app.use(express.static(path.resolve(__dirname, 'client')));
 app.get('/:id', function(request, response) 
 {
     var naturalDate
@@ -51,8 +56,7 @@ app.get('/:id', function(request, response)
     }
     else
     {
-        return null
-        response.send(null)
+        response.json({unix: null, natural: null})
     }
     
     var dateObj = {
@@ -60,8 +64,10 @@ app.get('/:id', function(request, response)
         natural: natural
     }
     
-    response.send(dateObj)
+    response.json(dateObj)
     return dateObj
 })
 
-app.listen('8000', function() {})
+app.listen(app.get('port'), () => {
+  console.log(`Listening on port ${app.get('port')}...`);
+})

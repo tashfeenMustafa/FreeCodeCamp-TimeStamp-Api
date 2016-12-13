@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TimeStamp API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+        <div class="container-fluid">
+            <h1><b>TimeStamp Microservice API</b></h1>
+            <p>This is a Timestamp Microservice API that accepts either a date in human readable format or in a unix timestamp and return an object containing the unix timestamp and the natural language date.</p>
+        </div>
+        
+        <div class="container-fluid">
+            <h3>Usage:</h3>
+            <pre>https://freecodecamp-timestamp-api.herokuapp.com/January 10, 2015</pre>
+            <pre>https://freecodecamp-timestamp-api.herokuapp.com/1420848000</pre>
+            <h3>Example Response:</h3>
+            <pre>{
+              unix: "1420848000"
+              natural: "January 10, 2015"
+            }</pre>
+        </div>
+        
+    </body>
+</html>
