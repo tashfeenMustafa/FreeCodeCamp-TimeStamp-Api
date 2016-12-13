@@ -64,7 +64,3 @@ app.get('/:id', function(request, response)
     return dateObj
 })
 
-app.listen('8080', function() 
-{
-    console.log('App listening on port 8080');
-})
