@@ -52,6 +52,7 @@ app.get('/:id', function(request, response)
     else
     {
         return null
+        response.send(null)
     }
     
     var dateObj = {
@@ -60,7 +61,7 @@ app.get('/:id', function(request, response)
     }
     
     response.send(dateObj)
-    
+    return dateObj
 })
 
 app.listen('8080', function() 
