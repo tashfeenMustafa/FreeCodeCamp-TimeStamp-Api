@@ -59,7 +59,7 @@ app.get('/:id', function(request, response)
         natural: natural
     }
     
-    return dateObj
+    response.send(dateObj)
     
 })
 
